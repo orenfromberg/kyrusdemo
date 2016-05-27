@@ -19,9 +19,8 @@
 //	}
 ///////////////////////////////////////////////////////////////////////////////////
 
-//function SwipeParserObj(strParse)
-module.exports = {
-SwipeParserObj: function (strParse)
+
+function SwipeParserObj(strParse)
 {
 	///////////////////////////////////////////////////////////////
 	///////////////////// member variables ////////////////////////
@@ -254,4 +253,7 @@ SwipeParserObj: function (strParse)
 	}
 
 }
+
+module.exports = {
+SwipeParserObj: SwipeParserObj
 };
