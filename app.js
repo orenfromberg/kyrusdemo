@@ -1,7 +1,9 @@
-var t2 = require('./track2');
+var util = require('./util');
 var fs = require('fs');
 var xmldoc = require('xmldoc');
-var util = require('./util')
+var http = require('http');
+
+var filename = './test2.xml'
 
 function processRecord(record) {
     var nameElement = record.childNamed("Name");
@@ -18,12 +20,13 @@ function processData(data) {
     records.eachChild(processRecord);
 }
 
-var filename = './test2.xml'
+function loadData() {
+    fs.readFile(filename, "utf8", function (err, data) {
+        if (err) {
+            return console.log(err);
+        }
+        processData(data);
+    })
+}
 
-// read in xml file here
-fs.readFile(filename, "utf8", function (err, data) {
-    if (err) {
-        return console.log(err);
-    }
-    processData(data);
-})
+loadData();
