@@ -4,7 +4,6 @@ var xmldoc = require('xmldoc');
 var http = require('http');
 
 var filename = './test2.xml'
-// var myData = [];
 
 function processData(data) {
     var records = new xmldoc.XmlDocument(data);
