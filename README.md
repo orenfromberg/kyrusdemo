@@ -19,7 +19,7 @@ at the command line, run the following commands:
 > npm start
 ```
 
-Open a browser and point it to http://localhost:3000/.
+Open a browser and point it to [http://localhost:3000/](http://localhost:3000/).
 
 You will see a sortable table populated with data. This is `mykyrusdemo/public/index.html`.
 
