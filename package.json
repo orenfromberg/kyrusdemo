@@ -1,0 +1,31 @@
+{
+  "name": "kyrusdemo",
+  "version": "1.0.0",
+  "description": "demo for kyrus",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "http": "^0.0.0",
+    "sqlite3": "^3.1.4",
+    "xmldoc": "^0.5.1",
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orenfromberg/kyrusdemo.git"
+  },
+  "author": "Oren Fromberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orenfromberg/kyrusdemo/issues"
+  },
+  "homepage": "https://github.com/orenfromberg/kyrusdemo#readme"
+}
