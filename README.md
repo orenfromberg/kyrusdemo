@@ -8,6 +8,8 @@ For the sortable table, I used [this library](http://github.hubspot.com/sortable
 
 For writing the SQLite database, I used [this library](https://github.com/mapbox/node-sqlite3).
 
+Most of the code that I wrote is in `util.js` and `mykyrusdemo/app.js`.
+
 ## 1. Setup
 Install Node.js v4.4.5 [here](https://nodejs.org/en/).
 
